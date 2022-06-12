@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/bootstrap.css') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>OLABOT</title>
+  </head>
+  <body>
+     <!-- awal code navbar/menu -->
+    <nav class="navbar py-4 navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1><i><b>OLABOT</b></i></h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active align-self-center">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#about_us"
+              >Tentang Kami<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#rekomendasi"
+              >Rekomendasi Produk<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="https://glowupwitholabot.wordpress.com/" target="_blank"
+              >Artikel<span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+     <!-- akhir code navbar/menu -->
+    
+   <!-- awal code hero -->
+    <section class="herobwa mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center"> 
+            <h1 class="mb-4">Olabot Your <br> Oily Skin's Bestie</h1>
+            <p class="mb-4">
+              Bingung mau perawatan kulit tapi gak paham cara dan skincare yang cocok? Olabot Solusinya! 
+
+              <br> Temukan solusi dan rekomendasi produk hanya di Olabot!
+            </p>
+            <p> Untuk berkonsultasi sahabat bisa mengklik buble chat di pojok kanan!</p>
+          </div>
+          <div class="col d-none d-sm-block">
+            <img
+              width="500"
+              src="{{ url_for('static', filename='images/picturelandingpage.jpg') }}" 
+              alt="Skin care photo"
+            />
+          </div>
+        </div>
+      </div>
+       <!-- akhir code hero -->
+      
+      <!-- awal code chatboot -->
+      <div class="container">
+        <div class="chatbox">
+          <div class="chatbox__support">
+            <div class="chatbox__header">
+              <div class="chatbox__image--header">
+                <img
+                  src="static\images\support.png"
+                  alt="image"
+                  
+                />
+              </div>
+              <div class="chatbox__content--header">
+                <h4 class="chatbox__heading--header">Olabot</h4>
+                <h5 class="chatbox__description--header">
+                  Hi. Nama saya Ola. Ada yang bisa ku bantu?
+                </h5>
+              </div>
+            </div>
+            <div class="chatbox__messages">
+              <div></div>
+            </div>
+            <div class="chatbox__footer">
+              <input type="text" placeholder="Write a message..." />
+              <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+          </div>
+          <div class="chatbox__button">
+            <button>
+              <img
+                src="{{ url_for('static', filename='images/chat.png') }}"
+                width="75"
+                alt="chat"
+                
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+       <!-- akhir code chatboot -->
+    </section>
+
+   <pre>
+
+
+
+   </pre>
+
+<section>
+  <h4 style="background-color: #aad9f4; border: 2px double #ffffff; 
+  padding: 15px; text-align: center;">Let's Get To Know More About <br> How To Taking Care of Your Skin </h5>
+  
+</section>
+
+<section>
+  <br>
+  
+  <div class="video-container">
+
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/OU0GGlTJ1aI">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/hNvf_zxbx9o">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/ERoGLOEiWDk">
+    </iframe>
+  
+    <br>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/W_b56skgxcc">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/CFNs_OMFpi4">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/WaMUOyWJq24">
+    </iframe>
+  </div>
+</section>
+
+<section class="base-section3__section3 layout">
+  <div class="base-section3__flex9 layout">
+    <div class="base-section3__flex9-item">
+      <div class="base-section3__flex10 layout">
+        <div class="base-section3__cover-block layout">
+          <h1 class="base-section3__big-title1 layout">Facial Wash</h1>
+          <br>
+          <p style= "text-align:center";><b>Kleveru Sea Buckthorn Cleansing Gel ( Facial Wash )</b></p>
+          <p style= "text-align:center";><b>Wardah Perfect Bright Creamy Foam Brightening + Oil Control</b></p>
+          <p style= "text-align:center";><b>Hale. Honey, I Dew Gel Cleanser</b></p>
+          <p style= "text-align:center";><b>Erha21, Erha 2 Facial Wash for Oily Skin</b></p>
+          <p style= "text-align:center";><b>Harlette Oatmilk Gentle Facial Wash</b></p>
+          <p style= "text-align:center";><b>Bhumi Calendula Oil Control Cleanser</b></p>
+          <p style= "text-align:center";><b>Biyu Oil Control Cleanser</b></p>
+          <p style= "text-align:center";><b>Azarine Acne Gentle Cleansing Foam</b></p>
+          <p style= "text-align:center";><b>Skintific - 5X Ceramide Low pH Cleanser Facial Wash Gentle Cleanser For Sensitive Skin</b></p>
+          <p style= "text-align:center";><b>Somethinc Acnedot Treatment Low pH Cleanser</b></p>
+          <p style= "text-align:center";><b>Somethinc Low pH Gentle Jelly Cleanser</b></p>
+
+        </div>
+        <div class="base-section3__flex11 layout">
+          <div class="base-section3__flex11-item">
+            <h1 class="base-section3__hero-title-box layout">
+              <h1 id="rekomendasi" class="base-section3__hero-title">
+<b>REKOMENDASI 
+PRODUK</b></h1
+              >
+            </h1>
+          </div>
+          <div class="base-section3__flex11-spacer"></div>
+          <div class="base-section3__flex11-item1">
+            <div class="base-section3__cover-block layout1">
+            
+            </div>
+          </div>
+        </div>
+        <div class="base-section3__cover-block layout2">
+          <h1 class="base-section3__big-title1 layout2">Hydrating Toner</h1>
+          <br>
+          <p style= "text-align:center";><b>Somethinc Supple Power Hyaluronic9+ Onsen Essence Toner</b></p>
+          <p style= "text-align:center";><b>Hale Stay Toned. Balancing Essence Toner</b></p>
+          <p style= "text-align:center";><b>Sensatia Botanicals Chamomile Tea Facial Toner</b></p>
+          <p style= "text-align:center";><b>The Bath Box Replenish Toner</b></p>
+          <p style= "text-align:center";><b>Kleveru Sea Buckthorn Essence Toner</b></p>
+          <p style= "text-align:center";><b>Harlette Waterymelon Deep Hydration Unscented Toner</b></p>
+          <p style= "text-align:center";><b>Avoskin Perfect Hydrating Treatment Essence</b></p>
+          <p style= "text-align:center";><b>Skin Game Kind Toner</b></p>
+          <p style= "text-align:center";><b>Skintific 4D Hyaluronic Acid (HA) Barrier Essence Toner</b></p>
+            
+        </div>
+      </div>
+    </div>
+    <div class="base-section3__flex9-spacer"></div>
+    <div class="base-section3__flex9-item1">
+      <div class="base-section3__flex12 layout">
+        <div class="base-section3__cover-block4 layout">
+          <h1 class="base-section3__big-title1 layout3">Exfoliating</h1>
+          <br>
+          <p style= "text-align:center";><b>Avoskin Miraculous Refining Toner</b></p>
+          <p style= "text-align:center";><b>Pore Hero Bare Aesthetic Exfoliating Toner (BAE TONER)</b></p> 
+          <p style= "text-align:center";><b>Somethinc Glow Maker AHA BHA PHA Clarifying Treatment Toner SOMETHINC AHA BHA PHA Peeling Solution</b></p>
+          <p style= "text-align:center";><b>Noolab Breezy Willow Moist Serum</b></p>
+          <p style= "text-align:center";><b>Skintific 5% AHA BHA PHA Exfoliating Toner</b></p>
+          <p style= "text-align:center";><b>Skin Game Restart Exfoliating Toner</b></p>
+          <p style= "text-align:center";><b>Bloomka Fruit AHA with Sugar Cane (Natural Glycolic Acid)+Calendula Exfoliating Toner</b></p>
+          <p style= "text-align:center";><b>Azarine Daily Beginner Exfoliating Toner</b></p>
+          <p style= "text-align:center";><b>Implora Peeling Serum</b></p>
+            </p>
+        </div>
+        <div class="base-section3__cover-block layout3">
+          <h1 class="base-section3__big-title1 layout">Moisturizer</h1>
+          <br>
+          <p style= "text-align:center";><b>Noolab Dew Calm Down Gel Moisturizer</b></p>
+          <p style= "text-align:center";><b>Studio Tropik Fresh Skin Barrier Cream</b></p>
+          <p style= "text-align:center";><b>Skin Game Daily Kind Moisturizer</b></p> 
+          <p style= "text-align:center";><b>ElsheSkin Hydra Boost Oil Free Moisturizer</b></p> 
+          <p style= "text-align:center";><b>Somethinc Ceramic Skin Saviour Moisturizer Gel</b></p>
+          <p style= "text-align:center";><b>Hale Comfort Zone Moisturizer</b></p>
+          <p style= "text-align:center";><b>Skintific - 5X Ceramide Barrier Repair Moisturize Gel Moisturizer</b></p> 
+          <p style= "text-align:center";><b>Avoskin Your Skin Bae Glow Concentrate Treatment 1% Tranexamic Acid + Multi Probiome + Pineapple Pelembab</b></p>
+          <p style= "text-align:center";><b>Bhumi G-Alpine Hydra Lock Moisturizer</b></p>
+          <p style= "text-align:center";><b>Wardah Witch Hazel Purifying Moisturizer Gel</b></p>
+            
+        </div>
+        <div class="base-section3__cover-block layout4">
+          <h1 class="base-section3__big-title1 layout">Sunscreen</h1>
+          <br>
+          <p style= "text-align:center";><b>Azarine Hydrasoothe Sunscreen Gel</b></p>
+          <p style= "text-align:center";><b>N'Pure Cica Beat The Sun SPF 50 PA ++++</b></p>
+          <p style= "text-align:center";><b>Rose All Day Cosmetics Don't Forget Sunscreen</b></p>
+          <p style= "text-align:center";><b>Somethinc Holyshield! Sunscreen Comfort Corrector Serum SPF 50+ PA++++</b></p>
+          <p style= "text-align:center";><b>Erha Acneact Acne Sun Friendly SPF 30/PA+++</b></p>
+          <p style= "text-align:center";><b>Erha Shield Normal to Oily Skin SPF 30/PA++</b></p>
+          <p style= "text-align:center";><b>Airnderm Sunscreen Oil Free SPF 30</b></p>
+          <p style= "text-align:center";><b>Avoskin The Great Shield Sunscreen</b></p>
+          <p style= "text-align:center";><b>The Aubree Artemisia Daily Sunscreen SPF 50 PA ++++</b></p>
+          <p style= "text-align:center";><b>Carasun Solar Smart UV Protector</b></p>
+            
+        </div>
+        <div class="base-section3__cover-block layout5">
+          <h1 class="base-section3__big-title1 layout">Retinol</h1>
+          <br>
+          <p style= "text-align:center";><b>Avoskin Miraculous Retinol Ampoule</b></p>
+          <p style= "text-align:center";><b>Somethinc 1% Pure Retinol + Squalane</b></p>
+          <p style= "text-align:center";><b>Eiem Beauty Acne + Anti Aging Serum, Actosome Retinol 1.5%</b></p>
+          <p style= "text-align:center";><b>Glowlabs Retinol Cica Night Serum</b></p>
+          <p style= "text-align:center";><b>Bhumi HPR Retinol Serum</b></p>
+          <p style= "text-align:center";><b>FSS For Skin's Sake Retinol Serum Concentrate</b></p>
+          <p style= "text-align:center";><b>Votre Peau Retinol Barrier Cream</b></p>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section>
+  <div class="about-section">
+    <h1 id="about_us">About Us</h1>
+    <p>Hallo! Selamat datang di Olabot.
+      Olabot merupakan platform konsultasi skincare yang dibuat untuk membantu orang-orang yang mempunyai tipe kulit berminyak. <br>
+      Di platform ini sahabat bisa berkonsultasi melalui chatbot kami tentang permasalah yang dialami oleh tipe kulit wajah berminyak dan mendapatkan informasi dari (artikel) dan video youtube yang kami rekomendasikan. 
+     <br>
+    <p>Credit by:
+    <a style= "color:#DBDFFD"; href='https://www.freepik.com/photos/skin-care'><br>Skin care photo created by freepik - www.freepik.com</a>
+    <a style= "color:#DBDFFD"; href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Freepik - Flaticon</a>
+    <a style= "color:#DBDFFD"; href="https://www.flaticon.com/free-icons/chat-box" title="chat box icons">Chat box icons created by Freepik - Flaticon</a></p>
+  </div>
+</section>
+
+    <script>
+      $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='app.js') }}"
+    ></script>
+  </body>
+</html>
