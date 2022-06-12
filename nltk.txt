@@ -1,4 +1,2 @@
-bag_of_words 
-tokenize 
-stem
-punkt
+import nltk
+nltk.download('punkt')
