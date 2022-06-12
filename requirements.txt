@@ -11,4 +11,3 @@ torch==1.8.1+cpu
 torchvision==0.9.1+cpu
 gunicorn==20.1.0
 jsonify==0.5
-requests==2.23.0
