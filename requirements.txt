@@ -6,6 +6,7 @@ requests==2.27.1
 urllib3==1.26.9
 Werkzeug==2.1.2
 zipp==3.8.0
--f http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl --trusted-host download.pytorch.org
-torchvision==0.12.0+cpuonly
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
 gunicorn==20.1.0
