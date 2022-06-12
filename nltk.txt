@@ -1,0 +1,4 @@
+bag_of_words 
+tokenize 
+stem
+punkt
