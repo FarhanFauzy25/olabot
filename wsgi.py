@@ -1,4 +1,4 @@
-from app import app
+from app.main import app
 
 # in the main.py file:
 from torch.utils.data import Dataset, DataLoader
