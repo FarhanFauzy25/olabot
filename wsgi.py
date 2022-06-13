@@ -1,5 +1,6 @@
-from flask import Flask
+from application import create_app
 
-def create_app():
-    app = Flask(...)
-    return app
+app = create_app()
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
