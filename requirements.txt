@@ -98,7 +98,6 @@ python-dateutil==2.8.2
 python-slugify==6.1.1
 pytz==2022.1
 pytz-deprecation-shim==0.1.0.post0
-pywinpty==2.0.5
 pyzmq==22.3.0
 regex==2022.4.24
 requests==2.27.1
