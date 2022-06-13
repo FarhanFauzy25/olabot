@@ -1,7 +1,5 @@
-from app.main import app
+from flask import Flask
 
-# in the main.py file:
-from torch.utils.data import Dataset, DataLoader
-
-# in the torch_utils.py file
-PATH = "data.pth"
+def create_app():
+    app = Flask(...)
+    return app
